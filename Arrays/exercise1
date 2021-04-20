@@ -1,0 +1,8 @@
+#exercise1.rb
+#Write a program that checks to see if the number appears in the array.
+
+arr = [1, 3, 5, 7, 9, 11]
+number = 3
+
+x = arr.select { |num| num = number}
+puts x
